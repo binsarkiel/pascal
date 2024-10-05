@@ -11,7 +11,7 @@ begin
     
     nama := 'Tulis Nama kamu';
     npm := 'Tulis NPM kamu';
-    kelas := 'Tulis Kelas kamu'
+    kelas := 'Tulis Kelas kamu';
 
     writeln('->  Identitas Mahasiswa   <-');
     writeln();
