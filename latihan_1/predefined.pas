@@ -1,23 +1,24 @@
-(* Latihan 1 - Menampilkan nama lengkap dan NPM. *)
-
 program identitas;
 uses crt;
 
 var
     nama: string;
     npm: string;
+    kelas: string;
 
 begin
     clrscr;
     
-    nama := 'Yehezkiel Hasudungan';
-    npm := '202443501259';
+    nama := 'Tulis Nama kamu';
+    npm := 'Tulis NPM kamu';
+    kelas := 'Tulis Kelas kamu'
 
     writeln('->  Identitas Mahasiswa   <-');
     writeln();
     
     writeln('Nama: ', nama);
     writeln('NPM: ', npm);
+    writeln('Kelas: ', kelas);
 
     writeln();
     writeln('Universitas Indraprasta PGRI');
